@@ -1,0 +1,16 @@
+{
+  "name": "vitepress_tm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wommy/vitepress_tm.git",
+  "author": "wommy <tom@technomad.media>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.21.5"
+  }
+}
